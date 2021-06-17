@@ -209,6 +209,12 @@ h4 {
   --color     : var(--white-color);
   --color-alt : var(--body-bg-color);
   color       : var(--title-color);
+
+  display: flex;
+  align-content: center;
+  width: 170px;
+  margin: auto;
+  justify-content: center;
 }
 
 .button.ghost {
@@ -452,6 +458,45 @@ h4 {
   margin: auto;
 }
 
+.button img{
+  width: 1.5rem;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+/*------HOME INFORMATION----*/
+
+.information-home p{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 45px;
+  margin: auto;
+}
+
+.content-text-information-home{
+  width: 100%;
+  height: 100%;
+  margin-right:5px;
+  margin-left: 5px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.content-text-information-home p {
+ text-align: left;
+}
+
+.content-text-information-home h1{
+color: #000000;
+}
+
+.content-text-information-home h2{
+color: #444444;
+}
+
 /* ----- SERVICIOS ----- */
 
 .services-section h2 {
@@ -604,6 +649,15 @@ h4 {
   border-radius: 50%;
   height: 150px;
   width: 150px;
+  margin: auto;
+}
+
+.rectangle-rounded {
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 20%;
+  height: 250px;
+  width: 250px;
   margin: auto;
 }
 
@@ -891,6 +945,11 @@ h4 {
 .about-item p {
   margin-bottom : 0;
   text-align: center;
+}
+
+
+.about-item-information-home p{
+  text-align: left;
 }
 
 @media screen and (min-width: 1024px) {

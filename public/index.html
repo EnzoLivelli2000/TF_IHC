@@ -1,81 +1,135 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Normalize CSS -->
-  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
-  <!-- Estilos personalizados -->
-  <link rel="stylesheet" href="styles/styles.css">
-  <!-- JAM icons -->
-  <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
-  <link rel="icon" href="assets/images/favicon.ico">
-  <title>Home | Tukuy</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="styles/styles.css">
+    <!-- JAM icons -->
+    <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
+    <link rel="icon" href="assets/images/favicon.ico">
+    <title>Home | Tukuy</title>
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4TMS7WG310"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4TMS7WG310"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-    gtag('config', 'G-4TMS7WG310');
-  </script>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-4TMS7WG310');
+    </script>
 </head>
 <body>
 
-  <!-- Cabecera (Logo y menú de navegación) -->
-  <header class="main-header">
+<!-- Cabecera (Logo y menú de navegación) -->
+<header class="main-header">
     <div class="content-wrapper">
-      <a href="./">
-        <img src="assets/images/logo.jpg" alt="Logo Tukuy">
-      </a>
-      <span id="open-menu-button" class="jam jam-menu"></span>
-      <nav id="main-menu" class="main-menu">
-        <span id="close-menu-button" class="jam jam-close"></span>
-        <ul>
-          <li>
-            <a href="./">Home</a>
-          </li>
-          <li>
-            <a href="quienes-somos.html">About Us</a>
-          </li>
-          <li>
-            <a href="servicios.html">Our Services</a>
-          </li>
-          <li>
-            <a href="contacto.html">Call to Action</a>
-          </li>
-        </ul>
-      </nav>
+        <a href="./">
+            <img src="assets/images/logo.jpg" alt="Logo Tukuy">
+        </a>
+        <span id="open-menu-button" class="jam jam-menu"></span>
+        <nav id="main-menu" class="main-menu">
+            <span id="close-menu-button" class="jam jam-close"></span>
+            <ul>
+                <li>
+                    <a href="./">Home</a>
+                </li>
+                <li>
+                    <a href="quienes-somos.html">About Us</a>
+                </li>
+                <li>
+                    <a href="servicios.html">Our Plans</a>
+                </li>
+                <li>
+                    <a href="contacto.html">Call to Action</a>
+                </li>
+            </ul>
+        </nav>
     </div>
-  </header>
+</header>
 
-  <main>
+<main>
 
     <!-- Banner principal -->
     <section class="main-banner section-container">
-      <div class="content-wrapper content">
-        <div class="container">
-          <h2 class="subtitle">QUALITY CONTENT</h2>
-          <h1 class="title">Don't waste your time on anything.</h1>
-          <p class="subtitle">We are a company that seeks to provide or recommend quality content, so you do not have to waste your time aimlessly browsing various platforms.</p>
-          <div>
-            <a class="button white" href="contacto.html">Install Now!</a>
-          </div>
+        <div class="content-wrapper content">
+            <div class="container">
+                <h2 class="subtitle">QUALITY CONTENT</h2>
+                <h1 class="title">Don't waste your time on anything.</h1>
+                <p class="subtitle">We are a company that seeks to provide or recommend quality content, so you do not
+                    have to waste your time aimlessly browsing various platforms.</p>
+                <div>
+                    <a class="button white" href="https://play.google.com/store?hl=es">
+                        <img src="./assets/svg/playstore.svg" alt="playstoreLogo">
+                        Install Now!
+                    </a>
+                </div>
+            </div>
+            <div class="container">
+                <div class="rectangle-decoration">
+                    <img class="image rectangle-decoration-image" src="assets/images/image-banner.jpg"
+                         alt="Computadora EDsoft">
+                </div>
+            </div>
         </div>
-        <div class="container">
-          <div class="rectangle-decoration">
-            <img class="image rectangle-decoration-image" src="assets/images/image-banner.jpg" alt="Computadora EDsoft">
-          </div>
-        </div>
-      </div>
     </section>
-  </main>
-  <footer class="main-footer">
-    <p>Todos los derechos reservados © 2021 | TUKUY tech labs agency</p>
-  </footer>
 
-  <script src="./scripts/menu.js"></script>
+
+    <!-- information principal -->
+    <section class="section-container ">
+        <div class="information-home content-wrapper">
+            <h1>What is Tukuy?</h1>
+            <p class="subtitle">Tukuy is an application where you can find quality content that is of interest to you.
+                Also, if you are an artist or content creator and want to make your art known to others, we can help you
+                find your audience.</p>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+        <div class="content-wrapper">
+            <article class="about-item about-item-information-home">
+                <div class="image-container rectangle-rounded">
+                    <img src="assets/images/informatio-home/creadores_contenido_image.jpg" alt="Sobre nosotros" class=" rectangle-rounded">
+                </div>
+                <div class="content-text-information-home">
+                    <h2>For Creators</h2>
+                    <p class="subtitle">
+                        Content creators will be able to bring their art or content to those who are interested and
+                        appreciate it.
+                        This will be achieved due to our high performance algorithm, it will analyze the tastes and
+                        trends of the registered people and will recommend the content of their interest.</p>
+                </div>
+            </article>
+
+            <article class="about-item about-item-information-home">
+                <div class="image-container rectangle-rounded">
+                    <img src="assets/images/informatio-home/consumidores_contenido_image.jpg" alt="Sobre nosotros" class=" rectangle-rounded">
+                </div>
+                <div class="content-text-information-home">
+                    <h2>For Consumers</h2>
+                    <p class="subtitle">
+                        Our users who want to have fun and have fun for a while, we have exclusive functionalities for
+                        them so that they can get closer to their favorite artists or content creators. We also offer
+                        you content that we believe will be of your personal interest.</p>
+                </div>
+            </article>
+
+            <p></p>
+        </div>
+    </section>
+</main>
+<footer class="main-footer">
+    <p>Todos los derechos reservados © 2021 | TUKUY tech labs agency</p>
+</footer>
+
+<script src="./scripts/menu.js"></script>
 </body>
 </html>
