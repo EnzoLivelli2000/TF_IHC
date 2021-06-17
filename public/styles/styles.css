@@ -33,7 +33,7 @@ img {
   --text-color        : #47494c;
   --body-bg-color     : #FAFDFF;
   --white-color       : #ffffff;
-  --shadow-color      : #ececec;
+  --shadow-color      : rgba(236, 236, 236, 0.66);
   --color             : var(--primary-color);
   --color-alt         : var(--primary-color-alt);
 
@@ -370,6 +370,9 @@ h4 {
 
 .main-banner {
   display    : flex;
+}
+
+.main-banner-color {
   background : var(--primary-color);
 }
 
@@ -379,6 +382,9 @@ h4 {
     min-height : 550px;
   }
 
+  .information-home-container{
+    min-height: 550px;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -540,7 +546,48 @@ color: #444444;
   margin-bottom : 0;
 }
 
-/* ----- SOBRE NOSOTROS ----- */
+/*--------- HOME FREQUENT QUESTIONS------------*/
+
+.parf-text{
+  font-size: var(--h4-font-size);
+  color: var(--shadow-color);
+}
+
+.white-text{
+  color: var(--white-color);
+}
+
+.section-container .frequent-questions-home{
+  margin: auto;
+}
+
+.content-text-frequent-questions-home h2{
+  text-align: center;
+}
+
+.frequent-questions-home h1{
+  margin-bottom: 60px;
+}
+
+.content-text-frequent-questions-home p{
+  text-align: center;
+}
+
+.frequent-questions-home h1{
+ margin-top: 100px;
+}
+
+.content-text-frequent-questions-home{
+  width: 100%;
+  margin-top: 25px;
+  margin-right:5px;
+  margin-left: 5px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .about-us{
   background-color: var(--white-color);
 }
