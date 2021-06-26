@@ -366,6 +366,15 @@ h4 {
 
 }
 
+.my-iframe-style{
+  margin: auto;
+  width: 100%;
+  display: flex;
+}
+
+.my-iframe-style iframe{
+  margin: auto;
+}
 /* ----- BANNER PRINCIPAL ----- */
 
 .main-banner {
